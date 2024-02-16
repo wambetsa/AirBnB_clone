@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from models.base_model import BaseModel
 
 # City child class inherits from BaseModel parent class

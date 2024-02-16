@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from models.base_model import BaseModel
 
 #child class Review inherits from base/parent class BaseModel
