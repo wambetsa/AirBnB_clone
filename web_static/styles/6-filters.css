@@ -64,6 +64,16 @@
 .filters .popover {
     /* display: none; */
     visibility: hidden;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    width: 100%;
+    list-style: none;
+    visibility: hidden;
+    padding-right: 0px;
+    padding-left: 0px;
+    left: -1px;
+    z-index: 1;
 }
 
 .filters .locations h2 {

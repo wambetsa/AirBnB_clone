@@ -1,13 +1,14 @@
 /*section stylesheet*/
 
 .filters {
+    position: relative;
     background-color: #FFFFFF;
     height: 70px;
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 }
 
 .filters button {
@@ -18,19 +19,25 @@
     width: 20%;
     border: 0;
     border-radius: 4px;
-    margin: auto 30px;
     margin-top: 12px;
-    /* transition: opacity 0.3s; */
+    margin: auto 50px;
 }
 
 .filters button:hover {
     opacity: 0.9;
 }
 
-.filters .locations, .amenities {
+.filters .locations {
     height: 100%;
     width: 25%;
-    border-right: #DDDDDD 1px;
+    padding-left: 30px;
+    border-right: 1px solid #DDDDDD;
+}
+
+.filters .amenities {
+    height: 100%;
+    width: 25%;
+    padding-left: 30px;
 }
 
 .filters h3 {

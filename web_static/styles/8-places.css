@@ -4,7 +4,6 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    /* margin-top: 30px; */
     padding-bottom: 30px;
 }
 
@@ -38,7 +37,6 @@ article .price_by_night {
     height: 60px;
     font-size: 30px;
     border-radius: 50%;
-    float: right;
     line-height: 60px;
     text-align: center;
     margin: 10px;
